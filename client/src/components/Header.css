@@ -1,0 +1,21 @@
+.bg {
+    background-color: #8c4782;
+}
+
+.center {
+    text-align: center;
+}
+
+.link{
+    text-decoration: underline;
+    color: white;
+    font-weight: 750;
+}
+a:hover{
+    color: white;
+}
+
+.head{
+    font-size: small;
+    padding: 0.5rem;
+}

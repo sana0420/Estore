@@ -1,0 +1,40 @@
+.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+.links-font{
+    font-size: 11px;
+    margin-top: -2px;
+}
+.img-sale{
+    width: 200px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.wid{
+    width: 200px;
+
+}
+
+.col{
+    color: rgb(183, 174, 174);
+    font-weight: 700;
+}
+.center{
+    text-align: center;
+}
+.dropdown-menu.centered {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+.pad{
+    margin-bottom: -20px;
+}
+nav{
+    background-color: white;
+}

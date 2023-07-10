@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .coll{
     color: black;
     font-weight: bold;
@@ -20,4 +21,28 @@ a:active{
     border: 1px solid grey;
     border-radius: 0px;
     width: 170px;
+=======
+.coll{
+    color: black;
+    font-weight: bold;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: grey;
+}
+a:active{
+    box-shadow: 0px 0px 2px 2px #5265d288;
+}
+.border{
+    border: 1px solid grey;
+    width: 170px;
+    border-radius: 0px;
+}
+.border-filter{
+    border: 1px solid grey;
+    border-radius: 0px;
+    width: 170px;
+>>>>>>> Stashed changes
 }

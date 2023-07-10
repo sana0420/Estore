@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .dropdown:hover .dropdown-menu{
     display: block;
 
@@ -37,4 +38,75 @@ a:hover{
 }
 nav{
     background-color: white;
+=======
+.dropdown:hover .dropdown-menu{
+
+    display: block;
+
+}
+.links-font{
+    font-size: 	0.6875rem;
+    margin-top: -0.13 rem;
+}
+.img-sale{
+    width: 12rem;
+    height: 12rem;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.wid{
+    width: 12rem;
+
+}
+
+.col{
+    color: rgb(183, 174, 174);
+    font-weight: 43.75rem;
+}
+.center{
+    text-align: center;
+}
+.dropdown-menu.centered {
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+.pad{
+    margin-bottom: -1.25px;
+}
+nav{
+    background-color: white;
+}
+a:active{
+    box-shadow: none;
+}
+.m{
+    margin-bottom: 1.875px;
+}
+.notify-badge{
+    position: absolute;
+    right:-1.25px;
+    top:0rem;
+    background:red;
+    text-align: center;
+    border-radius: none;
+    color:white;
+    padding:0.3125rem 0.625rem;
+    font-size:1.25rem;
+}
+.f{
+    font-size: 0.5rem;
+}
+.f-s{
+    font-size: 2rem ;
+}
+.f-sl{
+    font-size: 2.2vh;
+}
+.fr{
+    flex-direction: row;
+>>>>>>> Stashed changes
 }

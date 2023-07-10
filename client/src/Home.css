@@ -1,0 +1,61 @@
+#responsive-image {
+    max-width: 100%; /* Ensures the image does not exceed its container's width */
+    height: auto; /* Maintains the image's aspect ratio */
+  }
+  
+  /* Optional: Adjust the image's size and behavior for specific screen widths */
+  @media screen and (max-width: 600px) {
+    .res-img-blob{
+        position: relative;
+        bottom: -30rem;
+        left:0rem;
+    }
+    .res{
+        width: 10rem;
+        position: absolute;
+        top: 6rem;
+        right: 0rem;
+    }
+    .wid-text{
+        font-size: 0.7rem ;
+    }
+    h1{
+        font-size: 1rem;
+    }
+    .resdesign{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .responsive-image {
+      /* Styles for screens with a maximum width of 600px */
+      /* e.g., Reduce the image size or change its position */
+      width:  20rem;
+
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    
+    .responsive-image {
+      /* Styles for screens with a minimum width of 1200px */
+      /* e.g., Increase the image size or change its alignment */
+      width: 25rem;
+      justify-content: space-evenly
+    }
+    .res-img-blob{
+        width: 20rem;
+        position: absolute;
+        bottom: -50rem;
+        left: 0rem;
+    }
+    .res{
+        width: 20rem;
+        position: absolute;
+        top: 3rem;
+        right:0rem;
+    }
+  }
+  
+  /* Add more media queries as needed for different screen sizes */
+  

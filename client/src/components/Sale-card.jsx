@@ -16,7 +16,11 @@ function Salecard(props) {
                                 <span class="badge bg-danger text-dark fs-6 top-10 start-10 notify-badge">Sale</span>
                                 <img src={item.image} className="card-img-top" style={{ height: "550px",borderRadius:"0px" }} alt="..." />
                                 </div>
+<<<<<<< Updated upstream
                                 <button className="add-button mm" onClick={}>+ Add To Bag</button>
+=======
+                                <button className="add-button mm" onClick={handleonClick}>+ Add To Bag</button>
+>>>>>>> Stashed changes
                                 <div className="card-body mm">
                                     <h5 className="card-title marg">{item.name}</h5>
                                     <div className="d-flex">

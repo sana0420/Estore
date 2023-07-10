@@ -1,0 +1,39 @@
+.add-button{
+  border: none;
+  padding: 0.3125rem;
+}
+a:hover{
+  text-decoration: none;
+}
+button:hover{
+  color: white;
+  background-color: black;
+}
+.card-link{
+  border: none;
+}
+.m{
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-size: 0.875rem ;
+}
+.marg{
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  font-size: 1.0625rem;
+}
+.mar{
+  margin: 0rem;
+  font-size: 0.875rem ;
+}
+.mm{
+  margin-bottom: 0rem;
+}
+.notify-badge{
+  position: absolute;
+  right:18.75rem;
+  top:0rem;
+  text-align: center;
+  color:white;
+  font-size: 0.625rem;
+}
